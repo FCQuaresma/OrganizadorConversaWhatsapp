@@ -1,23 +1,45 @@
-# 📄 Monta Conversa / Pasta em PDF A4 (com anexos)
+📄 Monta Conversa / Pasta em PDF A4
 
-Script em Python que **gera um PDF em formato A4**, reunindo automaticamente o conteúdo de uma pasta (inclusive subpastas), na ordem dos arquivos por data de modificação.
+Script em Python que gera um PDF no formato A4, reunindo automaticamente o conteúdo de uma pasta (incluindo subpastas), respeitando a ordem por data de modificação dos arquivos.
 
-✅ Suporta:
-- **Textos:** `.txt` e `.md` (com quebra automática de linha + paginação sem cortar)
-- **Imagens:** `.jpg`, `.jpeg`, `.png` (centralizadas e redimensionadas para caber no A4 sem cortes)
-- **Outros arquivos:** adicionados como **ANEXOS do PDF** (ex: `.mp3`, `.docx`, `.pdf`, `.zip`, etc)
+✨ Funcionalidades
+📁 Varredura completa da pasta (recursiva)
+🗂️ Ordenação automática por data de modificação
+📄 Geração de PDF formatado para A4
+🔗 Inclusão de anexos no PDF final
+✅ Tipos de arquivos suportados
+📝 Textos
+.txt
+.md
 
----
+✔ Quebra automática de linha
+✔ Paginação inteligente (sem cortar conteúdo)
 
-## 🚀 O que o script faz?
+🖼️ Imagens
+.jpg
+.jpeg
+.png
 
-Ao executar, o script:
+✔ Centralizadas no PDF
+✔ Redimensionadas para caber no A4
+✔ Sem cortes ou distorções
 
-1. Varre todos os arquivos da pasta informada (incluindo subpastas)
-2. Ordena os arquivos por **data de modificação**
-3. Gera um PDF temporário com:
-   - imagens em páginas A4 completas (sem cortar)
-   - textos com quebra automática e paginação (sem cortar)
-4. Adiciona ao PDF final os **arquivos não suportados** como **anexos**
-5. Salva o resultado como um PDF final pronto para enviar/arquivar
+📎 Outros arquivos (Anexos)
+.mp3, .docx, .pdf, .zip, entre outros
 
+✔ Adicionados como anexos no PDF final
+
+🚀 Como funciona
+
+Ao executar o script:
+
+🔍 Varre todos os arquivos da pasta informada (incluindo subpastas)
+📅 Ordena os arquivos por data de modificação
+🧾 Gera um PDF temporário contendo:
+Imagens em páginas A4 completas (sem cortes)
+Textos com quebra automática e paginação
+📎 Adiciona ao PDF final os arquivos não suportados como anexos
+💾 Salva o PDF final pronto para envio ou arquivamento
+💡 Resumo
+
+Um script simples e poderoso para transformar pastas inteiras em um único PDF organizado, mantendo estrutura, legibilidade e anexos.
